@@ -1,5 +1,12 @@
+import Advice from './components/advice/Advice';
+import Main from './components/main/Main';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<Main>
+			<Advice />
+		</Main>
+	);
 };
 
 export default App;
